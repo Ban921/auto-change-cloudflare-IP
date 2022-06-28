@@ -13,7 +13,7 @@ import (
 )
 
 func getOldIp() string {
-	return os.Getenv("old_ip")
+	return os.Getenv("OLD_IP")
 }
 
 type IP struct {
